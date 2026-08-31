@@ -25,11 +25,11 @@ void get_input_txt(void)
 
 void print_txt_randomcase(void)
 {
-    unsigned int i = 0;
+    unsigned int i;
 
     srand(time(NULL));
 
-    for (; i < strlen(txt); i++) {
+    for (i = 0; i < strlen(txt); i++) {
         printf("%c",
                isalpha(txt[i])
                ? (rand() % 2
