@@ -15,8 +15,9 @@ Has configurations for:
 
 ---
 
-- **Funky Text Printer**
-  Literally just prompts for an input text and prints it back in randomcase.
+- **Funky Text Printer - C**
+
+Literally just prompts for an input text and prints it back in randomcase.
 
 ---
 
